@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tictactoe_a.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/play"
+        android:title="@string/play"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/newg"
+        android:icon="@drawable/ic_newg"
+        android:title="@string/newg"
+        app:showAsAction="always"/>
+    
+     <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/exit"
+        app:showAsAction="always"/>
+    
+
+</menu>
